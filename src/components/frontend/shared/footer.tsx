@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="container py-4 text-center text-sm text-muted-foreground mt-10">
       <div className="my-3 flex items-center justify-center gap-3">
-        <b>Our Products: </b>
+        <b>其他项目: </b>
         <a href="https://www.redirectchecker.org/" className="text-primary flex items-center">
           <img alt="Redirect Checker" src="https://www.faviconextractor.com/favicon/www.redirectchecker.org" className="h-5 w-5 mr-1 rounded-full bg-secondary" width={20} height={20} />
           <span>Redirect Checker</span>
@@ -20,7 +20,7 @@ export function Footer() {
         </a>
       </div>
       <span>
-        © {new Date().getFullYear()} <a href="https://www.faviconextractor.com">{appConfig.appName}</a>. All rights reserved.
+        © {new Date().getFullYear()} <a href="https://getfavicon.jiakun.us.kg">{appConfig.appName}</a>. All rights reserved.
       </span>
     </footer>
   );
