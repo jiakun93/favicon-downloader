@@ -6,7 +6,7 @@ export type LocaleType = typeof locales[number];
 
 export const appConfig = {
   appDomain: process.env.NODE_ENV === 'development' ? "127.0.0.1:3000" : "getfavicon.jiakun.us.kg",
-  appRootDomain: "getfavicon.jiakun.us.kg",
+  appRootDomain: "faviconextractor.com",
   appName: "Favicon Extractor",
   appDescription: "FaviconExtractor",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "G-H5ZKZ7KTHT",
